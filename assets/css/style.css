@@ -1,0 +1,325 @@
+﻿/* ============================================================================================== 
+This copyright notice must be kept untouched in the stylesheet at all times.
+The original version of this stylesheet and the associated (x)html 
+is available at http://www.script-tutorials.com/bootstrap-one-page-template-with-parallax-effect/
+Copyright (c) Script Tutorials. All rights reserved.
+This stylesheet and the associated (x)html may be modified in any way to fit your requirements.
+================================================================================================= */
+
+/* general styles */
+html, body {
+  height: 100%;
+  width: 100%;
+  font-family: customGMD;
+}
+
+/* padded section */
+.pad-section {
+  padding: 50px 0;
+}
+.pad-section img {
+  width: 100%;
+}
+
+/* vertical-centered text */
+.text-vcenter {
+  margin-top: 13%;
+  margin-left: 25%;
+
+
+}
+.text-vcenter h1 {
+  font-size: 4.5em;
+  font-weight: 700;
+  margin: 0;
+  padding: 0;
+}
+
+.text-vcenter .description {
+  font-size: 1.1em;
+  width: 350px;
+  word-wrap: normal;
+
+  font-family: customAD;
+  margin-top: 20px;
+}
+
+.text-vcenter .small {
+  font-size: 2em;
+
+  font-family: customGMD;
+}
+
+.text-vcenter .big {
+  font-size: 5em;
+
+  font-family: customBN;
+}
+
+/* additional sections */
+#home {
+  background: url(../images/bg.png) no-repeat center center fixed; 
+  display: table;
+  height: 100%;
+  position: relative;
+  width: 100%;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+#home2 {
+  background: url(../images/bg2.png) no-repeat center center fixed; 
+  display: table;
+  height: 100%;
+  position: relative;
+  width: 100%;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+#home3 {
+  background: url(../images/bg3.png) no-repeat center center fixed; 
+  display: table;
+  height: 100%;
+  position: relative;
+  width: 100%;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+#workspace {
+  display: table;
+  height: 100%;
+  position: relative;
+  width: 100%;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+#services {
+  /*background-color: #306d9f;
+  color: #ffffff;*/
+}
+#services .glyphicon {
+  border: 2px solid #FFFFFF;
+  border-radius: 50%;
+  display: inline-block;
+  font-size: 60px;
+  height: 140px;
+  line-height: 140px;
+  text-align: center;
+  vertical-align: middle;
+  width: 140px;
+}
+
+#information {
+  background: url(../images/estate.jpg) no-repeat center center fixed; 
+  display: table;
+  height: 800px;
+  position: relative;
+  width: 100%;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+#information .panel {
+  opacity: 0.85;
+}
+
+#google_map {
+  height: 500px;
+}
+
+footer {
+  padding: 20px 0;
+}
+footer .glyphicon {
+  color: #333333;
+  font-size: 60px;
+}
+footer .glyphicon:hover {
+  color: #306d9f;
+}
+
+/*
+
+*/
+
+.home, .home2, .home3 h1, .description {
+  color: #FFF;
+}
+
+.navbar-custom {
+    /*color: #000;
+    background-color: #FFF;
+    border-color: #FFF;*/
+
+    padding-left: 100px;
+    padding-right: 100px;
+
+    font-size: 1.1em;
+}
+
+.navbar-custom .navbar-nav > li > a {
+    color:#000;
+}
+.navbar-default .navbar-nav > .active > a, .navbar-nav > li > a:hover, .navbar-nav > li > a:focus {
+    color: #000;
+}
+
+/*WORKSPACE*/
+
+.workspace-left {
+  float: left;
+  width: 55%;
+  /*padding: 0 2% 0 2%;*/
+}
+
+.workspace-right {
+  float: left;
+  width: 45%;
+  /*padding: 0 2% 0 2%;*/
+}
+
+.hexagon-sm {
+  position: relative;
+  width: 40px;
+  height: 23.09px;
+  background-color: #e94a4e;
+  margin: 9.55px 0;
+}
+
+.hexagon-sm:before,
+.hexagon-sm:after {
+  content: "";
+  position: absolute;
+  width: 0;
+  border-left: 20px solid transparent;
+  border-right: 20px solid transparent;
+}
+
+.hexagon-sm:before {
+  bottom: 100%;
+  border-bottom: 11.55px solid #e94a4e;
+}
+
+.hexagon-sm:after {
+  top: 100%;
+  width: 0;
+  border-top: 11.55px solid #e94a4e;
+}
+
+.hexagon-bg-1 {
+  position: relative;
+  width: 150px; 
+  height: 86.60px;
+  background-color: #e94a4e;
+  margin: 43.30px 0;
+}
+
+.hexagon-bg-1:before,
+.hexagon-bg-1:after {
+  content: "";
+  position: absolute;
+  width: 0;
+  border-left: 75px solid transparent;
+  border-right: 75px solid transparent;
+}
+
+.hexagon-bg-1:before {
+  bottom: 100%;
+  border-bottom: 43.30px solid #e94a4e;
+}
+
+.hexagon-bg-1:after {
+  top: 100%;
+  width: 0;
+  border-top: 43.30px solid #e94a4e;
+}
+
+.hexagon-bg-2 {
+  position: relative;
+  width: 150px; 
+  height: 86.60px;
+  background-color: #1e475a;
+  margin: 43.30px 0;
+}
+
+.hexagon-bg-2:before,
+.hexagon-bg-2:after {
+  content: "";
+  position: absolute;
+  width: 0;
+  border-left: 75px solid transparent;
+  border-right: 75px solid transparent;
+}
+
+.hexagon-bg-2:before {
+  bottom: 100%;
+  border-bottom: 43.30px solid #1e475a;
+}
+
+.hexagon-bg-2:after {
+  top: 100%;
+  width: 0;
+  border-top: 43.30px solid #1e475a;
+}
+
+.hexagon-md {
+  position: relative;
+  width: 80px; 
+  height: 46.19px;
+  /*background-color: #ffffff;*/
+  margin: 23.09px 0;
+  border-left: solid 5px #63767f;
+  border-right: solid 5px #63767f;
+}
+
+.hexagon-md:before,
+.hexagon-md:after {
+  content: "";
+  position: absolute;
+  z-index: 1;
+  width: 56.57px;
+  height: 56.57px;
+  -webkit-transform: scaleY(0.5774) rotate(-45deg);
+  -ms-transform: scaleY(0.5774) rotate(-45deg);
+  transform: scaleY(0.5774) rotate(-45deg);
+  background-color: inherit;
+  left: 6.7157px;
+}
+
+.hexagon-md:before {
+  top: -28.2843px;
+  border-top: solid 7.0711px #63767f;
+  border-right: solid 7.0711px #63767f;
+}
+
+.hexagon-md:after {
+  bottom: -28.2843px;
+  border-bottom: solid 7.0711px #63767f;
+  border-left: solid 7.0711px #63767f;
+}
+
+.hr {
+  width: 15px;
+  height: 17px;
+  padding-left: 10px;
+}
+
+.line {
+  height: 100%;
+  float: left;
+  margin-top: -1px;
+  margin-left:9px;
+  border-left: 2px solid #e94a4e;
+}
