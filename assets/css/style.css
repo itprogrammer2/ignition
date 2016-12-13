@@ -353,7 +353,38 @@ footer .glyphicon:hover {
   color: #316c88;
 }
 
+.font-med-1 {
+  font-size: 1.6em;
+  color: #316c88;
+}
+
 .offset-0 {
     padding-left: 0;
     padding-right: 0;
+}
+
+.offset-1 {
+    padding-top: 0;
+    padding-bottom: 0;
+}
+
+.background-blue {
+  background-color: #506068;
+  color: #FFF;
+}
+
+.background-darkblue {
+  background-color: #445157;
+  color: #748b96;
+}
+
+.contactinfo {
+  padding-top: 10px;
+  height: 200px;
+}
+
+.copyright {
+  padding-top: 5px;
+  height: 30px;
+  text-align: center;
 }
