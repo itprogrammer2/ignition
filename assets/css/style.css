@@ -323,3 +323,37 @@ footer .glyphicon:hover {
   margin-left:9px;
   border-left: 2px solid #e94a4e;
 }
+
+.services-hexagon-button {
+  color: #FFF;
+  font-size: 1.5em;
+  text-align: center;
+  padding-top: 10px;
+}
+
+.font-white {
+  color: #FFF;
+}
+
+.font-gray {
+  color: #63767f;
+  font-size: 1.2em;
+}
+
+.font-red {
+  color: #e94a4e;
+  font-size: 1.3em;
+  font-weight: bold;
+  text-align: center;
+}
+
+.font-normal-1 {
+  font-size: 1.1em;
+  text-align: center;
+  color: #316c88;
+}
+
+.offset-0 {
+    padding-left: 0;
+    padding-right: 0;
+}
