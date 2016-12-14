@@ -1,30 +1,29 @@
 
 var nsOptions =
 {
-    sliderId: "ninja-slider",
+    sliderId: "i-slider",
     transitionType: "slide", //"fade", "slide", "zoom", "kenburns 1.2" or "none"
     autoAdvance: true,
     delay: "default",
     transitionSpeed: 1500,
     aspectRatio: "4:3",
-    initSliderByCallingInitFunc: false,
     shuffle: false,
     startSlideIndex: 0, //0-based
     navigateByTap: true,
     pauseOnHover: true,
-    keyboardNav: true,
-    before: function (currentIdx, nextIdx, manual) {
-        //show current slide num
-        // var numDiv = document.getElementById("current-slide-num");
-        // numDiv.innerHTML = nextIdx + 1 + " / " + nslider.getSlides().length;
-    },
-    license: "mylicense"
+    keyboardNav: true
+    // ,
+    // before: function (currentIdx, nextIdx, manual) {
+    //     //show current slide num
+    //     // var numDiv = document.getElementById("current-slide-num");
+    //     // numDiv.innerHTML = nextIdx + 1 + " / " + nslider.getSlides().length;
+    // },
+    // license: "mylicense"
 };
 
-var nslider = new NinjaSlider(nsOptions);
+var nslider = new iSlider(nsOptions);
 
-/* Ninja Slider v2016.10.10 Copyright www.menucool.com */
-function NinjaSlider(a) {
+function iSlider(a) {
     "use strict";
     if (typeof String.prototype.trim !== "function") String.prototype.trim = function() {
         return this.replace(/^\s+|\s+$/g, "")
@@ -459,7 +458,7 @@ function NinjaSlider(a) {
             var d = this;
             f = l;
             wb();
-            Db(a.a);
+            //Db(a.a);
             if (a.o && a.d) {
                 f.onmouseover = function() {
                     clearTimeout(Q);
@@ -785,40 +784,42 @@ function NinjaSlider(a) {
             if (k[t]) k[t]("DOMContentLoaded", b, false);
             else z(window, "load", b)
         };
-    if (!a.initSliderByCallingInitFunc)
-        if (G(n)) M();
-        else Cb(M);
-    return {
-        displaySlide: function(a) {
-            if (b[d]) {
-                if (typeof a == "number") var c = a;
-                else c = a.ix;
-                j(c, 0)
-            }
-        },
-        next: function() {
-            j(c + 1, 1)
-        },
-        prev: function() {
-            j(c - 1, 1)
-        },
-        toggle: I,
-        getPos: function() {
-            return c
-        },
-        getSlides: function() {
-            return b
-        },
-        playVideo: function(a) {
-            if (typeof a == "number") a = b[a];
-            if (a.player) {
-                j(a.ix, 0);
-                l.playVideo(a.player)
-            }
-        },
-        init: function(a) {
-            !l && M();
-            typeof a != "undefined" && this.displaySlide(a)
-        }
-    }
+    // if (!a.initSliderByCallingInitFunc)
+    //     if (G(n)) M();
+    //     else Cb(M);
+
+    Cb(M);
+    // return {
+    //     displaySlide: function(a) {
+    //         if (b[d]) {
+    //             if (typeof a == "number") var c = a;
+    //             else c = a.ix;
+    //             j(c, 0)
+    //         }
+    //     },
+    //     next: function() {
+    //         j(c + 1, 1)
+    //     },
+    //     prev: function() {
+    //         j(c - 1, 1)
+    //     },
+    //     toggle: I,
+    //     getPos: function() {
+    //         return c
+    //     },
+    //     getSlides: function() {
+    //         return b
+    //     },
+    //     playVideo: function(a) {
+    //         if (typeof a == "number") a = b[a];
+    //         if (a.player) {
+    //             j(a.ix, 0);
+    //             l.playVideo(a.player)
+    //         }
+    //     },
+    //     init: function(a) {
+    //         !l && M();
+    //         typeof a != "undefined" && this.displaySlide(a)
+    //     }
+    // }
 }

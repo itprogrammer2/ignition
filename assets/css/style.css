@@ -137,18 +137,19 @@ html, body {
 
 #google_map {
   height: 500px;
+  margin: 0;
 }
 
 footer {
-  padding: 20px 0;
+  padding: 0;
 }
-footer .glyphicon {
+/*footer .glyphicon {
   color: #333333;
   font-size: 60px;
 }
 footer .glyphicon:hover {
   color: #306d9f;
-}
+}*/
 
 /*
 
@@ -353,6 +354,11 @@ footer .glyphicon:hover {
   color: #316c88;
 }
 
+.font-normal-2 {
+  font-size: 1.12em;
+  color: #FFF;
+}
+
 .font-med-1 {
   font-size: 1.6em;
   color: #316c88;
@@ -379,12 +385,15 @@ footer .glyphicon:hover {
 }
 
 .contactinfo {
-  padding-top: 10px;
   height: 200px;
 }
 
+.contactinfo .details {
+  padding: 3% 5% 0 5%;
+}
+
 .copyright {
-  padding-top: 5px;
-  height: 30px;
+  padding-top: 10px;
+  height: 40px;
   text-align: center;
 }
