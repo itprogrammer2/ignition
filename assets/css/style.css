@@ -397,3 +397,24 @@ footer .glyphicon:hover {
   height: 40px;
   text-align: center;
 }
+
+@keyframes blink {
+    0% {
+        opacity: 1;
+    }
+    50% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+.blink {
+    animation: blink 1s;
+    animation-iteration-count: infinite;
+}
+
+.slider-img {
+  width: 700px;
+  height: 400px;
+}

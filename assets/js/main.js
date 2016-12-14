@@ -12,6 +12,24 @@
 
 $(document).ready(function (){
 
+  $("#owl-demo").owlCarousel({
+      autoPlay : 2000,
+      navigation : false, // Show next and prev buttons
+      slideSpeed : 300,
+      paginationSpeed : 400,
+      singleItem:true,
+      stopOnHover : true,
+      rewindSpeed : 1000
+
+      // "singleItem:true" is a shortcut for:
+      // items : 1, 
+      // itemsDesktop : false,
+      // itemsDesktopSmall : false,
+      // itemsTablet: false,
+      // itemsMobile : false
+
+  });
+
   // create a LatLng object containing the coordinate for the center of the map
   var latlng = new google.maps.LatLng(14.5713527, 121.0676005);
 

@@ -10,7 +10,11 @@
 <link href="./assets/css/bootstrap.css" rel="stylesheet">
 <link href="./assets/css/fonts.css" rel="stylesheet" />
 <link href="./assets/css/style.css" rel="stylesheet" />
-<link href="./assets/plugins/ninja-slider/ninja-slider.css" rel="stylesheet" />
+
+<link href="./assets/plugins/owl/owl.carousel.css" rel="stylesheet" />
+<link href="./assets/plugins/owl/owl.theme.css" rel="stylesheet" />
+<link href="./assets/plugins/owl/owl.transitions.css" rel="stylesheet" />
+
 <link rel="icon" type="image/png" href="./assets/images/favicon.png" />
 </head>
 <body>
@@ -48,6 +52,10 @@
 
 			<div class="big">YOUR ENGINE</div>
 			<div class="big" style="margin-top: -30px;">FOR INNOVATION</div>
+			<div>
+				<a href="#workspace"><img src="./assets/images/mouse.png" /></a>
+				<img src="./assets/images/arrow_down.png" class="blink" />
+			</div>
 		</div>
 	</div>
 	<!-- /first section -->
@@ -89,7 +97,7 @@
 	<!-- /fourth section -->
 
 	<!-- fourth section - About -->
-	<div id="workspace" class="pad-section">
+	<div id="workspace">
 
 		<div>
 			<nav class="navbar navbar-default navbar-custom">
@@ -130,21 +138,16 @@
 				<div class="wrapper wrapper-content">
 					<div class="row">
 						<div class="col-lg-7">
-							<div id="i-slider">
-					            <div class="i-slider-container">
-					                <ul>
-					                    <li><a class="ns-img" href="./assets/images/carousel/479877216.jpg"></a></li>
-					                    <li><a class="ns-img" href="./assets/images/carousel/175138324.jpg"></a></li>
-					                    <li><a class="ns-img" href="./assets/images/carousel/481431071.jpg"></a></li>
-					                    <li><a class="ns-img" href="./assets/images/carousel/493088844.jpg"></a></li>
-					                    <li><a class="ns-img" href="./assets/images/carousel/foos-e1267236180688.jpg"></a></li>
-					                    <li><a class="ns-img" href="./assets/images/carousel/iStock_000073589327_Full.jpg"></a></li>
-					                    <li><a class="ns-img" href="./assets/images/carousel/iStock_000081488619_Large-2.jpg"></a></li>
-					                    <li><a class="ns-img" href="./assets/images/carousel/stock-photo-76274877-start-of-busy-day-at-work-trendy-office-business-people.jpg"></a></li>
-
-					                </ul>
-					            </div>
-					        </div>
+							<div id="owl-demo" class="owl-carousel">
+				                <div class="item"><img class="slider-img" src="./assets/images/carousel/479877216.jpg" alt=""></div>
+				                <div class="item"><img class="slider-img" src="./assets/images/carousel/175138324.jpg" alt=""></div>
+				                <div class="item"><img class="slider-img" src="./assets/images/carousel/481431071.jpg" alt=""></div>
+				                <div class="item"><img class="slider-img" src="./assets/images/carousel/493088844.jpg" alt=""></div>
+				                <div class="item"><img class="slider-img" src="./assets/images/carousel/foos-e1267236180688.jpg" alt=""></div>
+				                <div class="item"><img class="slider-img" src="./assets/images/carousel/iStock_000073589327_Full.jpg" alt=""></div>
+				                <div class="item"><img class="slider-img" src="./assets/images/carousel/iStock_000081488619_Large-2.jpg" alt=""></div>
+				                <div class="item"><img class="slider-img" src="./assets/images/carousel/stock-photo-76274877-start-of-busy-day-at-work-trendy-office-business-people.jpg" alt=""></div>
+				            </div>
 						</div>
 						<div class="col-lg-5">
 							<div>
@@ -601,7 +604,8 @@
 <script src="./assets/js/jquery-1.10.2.js"></script>
 <script src="./assets/js/bootstrap.min.js"></script>
 
-<script src="./assets/plugins/ninja-slider/ninja-slider.js"></script>
+<script src="./assets/plugins/owl/owl.carousel.min.js"></script>
+
 <script src="//maps.google.com/maps/api/js?sensor=true&key=AIzaSyAAarl7EUpxZrbx87JIZSbbONdMnJuvaEE"></script>
 <script src="./assets/js/main.js"></script>
 </body>
