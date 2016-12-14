@@ -10,7 +10,7 @@
 <link href="./assets/css/bootstrap.css" rel="stylesheet">
 <link href="./assets/css/fonts.css" rel="stylesheet" />
 <link href="./assets/css/style.css" rel="stylesheet" />
-<link href="./assets/css/vanilla-js-carousel.css" rel="stylesheet" />
+<link href="./assets/plugins/ninja-slider/ninja-slider.css" rel="stylesheet" />
 <link rel="icon" type="image/png" href="./assets/images/favicon.png" />
 </head>
 <body>
@@ -129,24 +129,19 @@
 			<div class="col-lg-12">
 				<div class="wrapper wrapper-content">
 					<div class="row">
-						<div class="col-lg-6">
-							<!-- <img src="./assets/images/samples/479877216.jpg" /> -->
-							<div class="b-carousel" id="carousel">
-							    <div class="b-carousel__frame">
-							        <ul class="b-carousel__items">
-							            <li><img src="./assets/images/carousel/479877216.jpg" alt=""></li>
-							            <li><img src="./assets/images/carousel/175138324.jpg" alt=""></li>
-							            <li><img src="./assets/images/carousel/481431071.jpg" alt=""></li>
-							            <li><img src="./assets/images/carousel/493088844.jpg" alt=""></li>
-							            <li><img src="./assets/images/carousel/foos-e1267236180688.jpg" alt=""></li>
-							            <li><img src="./assets/images/carousel/iStock_000073589327_Full.jpg" alt=""></li>
-							            <li><img src="./assets/images/carousel/iStock_000081488619_Large-2.jpg" alt=""></li>
-							            <li><img src="./assets/images/carousel/stock-photo-76274877-start-of-busy-day-at-work-trendy-office-business-people.jpg" alt=""></li>
-							        </ul>
-							    </div>
-							</div>
+						<div class="col-lg-7">
+							<div id="ninja-slider">
+					            <div class="slider-inner">
+					                <ul>
+					                    <li><a class="ns-img" href="./assets/images/carousel/479877216.jpg"></a></li>
+					                    <li><a class="ns-img" href="./assets/images/carousel/175138324.jpg"></a></li>
+					                    <li><a class="ns-img" href="./assets/images/carousel/481431071.jpg"></a></li>
+					                    <li><a class="ns-img" href="./assets/images/carousel/493088844.jpg"></a></li>
+					                </ul>
+					            </div>
+					        </div>
 						</div>
-						<div class="col-lg-6">
+						<div class="col-lg-5">
 							<div>
 								<div style="float:left">
 									<div class="hexagon-sm"></div>
@@ -233,7 +228,9 @@
 	<!-- fifth section -->
 	<div id="bigimg" class="pad-section">
 		<div class="col-lg-12">
-			<img src="./assets/images/samples/175138324.jpg" style="width: 100%; height: 650px;"/>
+			<div class="container">
+				<img src="./assets/images/samples/175138324.jpg" style="width: 100%; height: 650px;"/>
+			</div>
 		</div>
 	</div>
 	<!-- /fifth section -->
@@ -435,45 +432,47 @@
 	<!-- eight section -->
 	<div id="capital" class="pad-section">
 		<div class="col-lg-12">
-			<div class="row">
-				<div class="col-lg-6 offset-0">
-					<img src="./assets/images/samples/shutterstock_365572922.jpg" />
-				</div>
-				<div class="col-lg-6" style="height: 450px; padding-left:10%; padding-top: 5%;">
-					<div>
-						<div class="row">
-							<p style="font-size:1.2em;">IGNITION CAPITAL</p>	
-						</div>
-						<div class="row">
-							<div style="color:#e94a4e; font-size:2.7em; font-family:customBN;">MALESUADA HELP</div>	
-							<div style="color:#e94a4e; font-size:2.7em; font-family:customBN;">INDUSTRY VULPUTATE</div>	
-						</div>
-						<div class="row">
-							<p class="col-sm-6">Ignition connects its community to industry experts, strategic partners and venture capitalists to assist disruptive innovators expand and grow their business.</p>
-						</div>
-						<div class="row">
-							<button class="btn btn-danger" style="font-size:1em;">LEARN HOW</button>
-						</div>
+			<div class="container">
+				<div class="row">
+					<div class="col-lg-6 offset-0">
+						<img src="./assets/images/samples/shutterstock_365572922.jpg" />
 					</div>
-				</div>
-			</div>
-			<div class="row">
-				<div class="col-lg-6" style="background-color: #445157; height: 450px; padding-left:10%; padding-top: 5%;">
-					<div class="row">
-						<p style="font-size:1.2em; color: #FFF;">IGNITION STORIES</p>
-					</div>
-					<div class="row">
-						<p style="color:#FFF; font-size:2.7em; font-family:customBN;">NULLAM QUIS RISUS EGET URNA MOLLIS</p>
-					</div>
-					<div class="row">
-						<p class="col-sm-6 font-white">Vestibulum id ligula porta felis euismod semper. Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Praesent commodo magna, vel scelerisque nisl.</p>
-					</div>
-					<div class="row">
-						<button class="btn btn-danger" style="font-size:1em;">READ MORE IGNITION STORIES</button>
+					<div class="col-lg-6" style="height: 390px; padding-left:10%; padding-top: 5%;">
+						<div>
+							<div class="row">
+								<p style="font-size:1.2em;">IGNITION CAPITAL</p>	
+							</div>
+							<div class="row">
+								<div style="color:#e94a4e; font-size:2.7em; font-family:customBN;">MALESUADA HELP</div>	
+								<div style="color:#e94a4e; font-size:2.7em; font-family:customBN;">INDUSTRY VULPUTATE</div>	
+							</div>
+							<div class="row">
+								<p class="col-sm-6">Ignition connects its community to industry experts, strategic partners and venture capitalists to assist disruptive innovators expand and grow their business.</p>
+							</div>
+							<div class="row">
+								<button class="btn btn-danger" style="font-size:1em;">LEARN HOW</button>
+							</div>
+						</div>
 					</div>
 				</div>
-				<div class="col-lg-6 offset-0">
-					<img src="./assets/images/samples/cool-office.jpg" />
+				<div class="row">
+					<div class="col-lg-6" style="background-color: #445157; height: 390px; padding-left:10%; padding-top: 5%;">
+						<div class="row">
+							<p style="font-size:1.2em; color: #FFF;">IGNITION STORIES</p>
+						</div>
+						<div class="row">
+							<p style="color:#FFF; font-size:2.7em; font-family:customBN;">NULLAM QUIS RISUS EGET URNA MOLLIS</p>
+						</div>
+						<div class="row">
+							<p class="col-sm-6 font-white">Vestibulum id ligula porta felis euismod semper. Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Praesent commodo magna, vel scelerisque nisl.</p>
+						</div>
+						<div class="row">
+							<button class="btn btn-danger" style="font-size:1em;">READ MORE IGNITION STORIES</button>
+						</div>
+					</div>
+					<div class="col-lg-6 offset-0">
+						<img src="./assets/images/samples/cool-office.jpg" />
+					</div>
 				</div>
 			</div>
 		</div>
@@ -483,34 +482,36 @@
 	<!-- ninth section -->
 	<div id="ninth">
 		<div class="col-lg-12">
-			<div class="row">
-				<div class="col-lg-8" style="padding-left: 5%; padding-right: 5%;">
-					<p class="font-med-1">
-						Donec sed odio dui. Nullam id dolor id nibh ultricies vehicula ut id elit. Morbi leo risus, porta ac consectetur ac, vestibulum at eros.
-					</p>
+			<div class="container">
+				<div class="row">
+					<div class="col-lg-8" style="padding-left: 5%; padding-right: 5%;">
+						<p class="font-med-1">
+							Donec sed odio dui. Nullam id dolor id nibh ultricies vehicula ut id elit. Morbi leo risus, porta ac consectetur ac, vestibulum at eros.
+						</p>
+					</div>
+					<div class="col-lg-4" style="padding-top: 10px;">
+						<button class="btn btn-danger" style="font-size:1em;">IGNITE YOUR BUSINESS TODAY</button>
+					</div>
 				</div>
-				<div class="col-lg-4" style="padding-top: 10px;">
-					<button class="btn btn-danger" style="font-size:1em;">IGNITE YOUR BUSINESS TODAY</button>
-				</div>
-			</div>
-			<div class="row" style="height: 150px;">
-				<div class="col-sm-2 offset-0">
-					<img src="./assets/images/samples/google-dublin-playroom-1309781287.jpg" style="width: 100%; height: 150px;"/>
-				</div>
-				<div class="col-sm-2 offset-0">
-					<img src="./assets/images/samples/stock-photo-76274877-start-of-busy-day-at-work-trendy-office-business-people.jpg" style="width: 100%;"/>
-				</div>
-				<div class="col-sm-2 offset-0">
-					<img src="./assets/images/samples/481431071.jpg" style="width: 100%; height: 100%;"/>
-				</div>
-				<div class="col-sm-2 offset-0">
-					<img src="./assets/images/samples/foos-e1267236180688.jpg" style="width: 100%; height: 100%;"/>
-				</div>
-				<div class="col-sm-2 offset-0">
-					<img src="./assets/images/samples/6b9275c88acf10058e6b005056921b5e.jpg" style="width: 100%; height: 100%;"/>
-				</div>
-				<div class="col-sm-2 offset-0">
-					<img src="./assets/images/samples/iStock_000081488619_Large-2.jpg" style="width: 100%; height: 100%;"/>
+				<div class="row" style="height: 150px;">
+					<div class="col-sm-2 offset-0">
+						<img src="./assets/images/samples/google-dublin-playroom-1309781287.jpg" style="width: 100%; height: 150px;"/>
+					</div>
+					<div class="col-sm-2 offset-0">
+						<img src="./assets/images/samples/stock-photo-76274877-start-of-busy-day-at-work-trendy-office-business-people.jpg" style="width: 100%;"/>
+					</div>
+					<div class="col-sm-2 offset-0">
+						<img src="./assets/images/samples/481431071.jpg" style="width: 100%; height: 100%;"/>
+					</div>
+					<div class="col-sm-2 offset-0">
+						<img src="./assets/images/samples/foos-e1267236180688.jpg" style="width: 100%; height: 100%;"/>
+					</div>
+					<div class="col-sm-2 offset-0">
+						<img src="./assets/images/samples/6b9275c88acf10058e6b005056921b5e.jpg" style="width: 100%; height: 100%;"/>
+					</div>
+					<div class="col-sm-2 offset-0">
+						<img src="./assets/images/samples/iStock_000081488619_Large-2.jpg" style="width: 100%; height: 100%;"/>
+					</div>
 				</div>
 			</div>
 		</div>
@@ -583,21 +584,8 @@
 <script src="./assets/js/jquery-1.10.2.js"></script>
 <script src="./assets/js/bootstrap.min.js"></script>
 
-<script src="./assets/js/vanilla-js-carousel.min.js"></script>
+<script src="./assets/plugins/ninja-slider/ninja-slider.js"></script>
 <!-- <script src="//maps.google.com/maps/api/js?sensor=true"></script> -->
 <script src="./assets/js/main.js"></script>
-<script>
-    var carousel = new Carousel({
-        el: 'carousel',  // id of the carousel container
-        autoplay: true, // starts the rotation automatically
-        interval: 1500,  // interval between slide changes
-        initial: 0,      // slide to start with
-        dots: true,      // show navigation dots
-        arrows: false,    // show navigation arrows
-        buttons: false    // show play/stop buttons
-    });
-
-    carousel.initSlide(6);
-</script>
 </body>
 </html>
