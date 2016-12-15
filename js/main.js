@@ -33,11 +33,11 @@ $(document).ready(function (){
   });
 
   // create a LatLng object containing the coordinate for the center of the map
-  var latlng = new google.maps.LatLng(14.5713527, 121.0676005);
+  var latlng = new google.maps.LatLng(14.5495929, 121.0458753);
 
   // prepare the map properties
   var options = {
-    zoom: 15,
+    zoom: 17,
     center: latlng,
     mapTypeId: google.maps.MapTypeId.ROADMAP,
     navigationControl: true,

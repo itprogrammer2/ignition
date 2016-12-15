@@ -33,9 +33,9 @@ app.get('/fetch', function (req, res) {
 	connection.connect();
 
 	connection.query('SELECT * from accounts;', function(err, rows, fields) {
-	  if (err) throw err;
+	  	if (err) throw err;
 
-	  res.end(JSON.stringify(rows));
+	  	res.end(JSON.stringify(rows));
 	});
 
 	connection.end();
@@ -57,18 +57,16 @@ app.get('/auth/:username/:password', urlencodedParser, function (req, res) {
 				where username = ? and password = ?;';
 
 	connection.query(query, [req.params.username, md5(req.params.password)], function(err, rows, fields) {
-	  if (err) throw err;
-	  console.log(err);
-	  console.log(rows);
-	  res.end(JSON.stringify(rows[0]));
+	  	if (err) throw err;
+	  	res.end(JSON.stringify(rows[0]));
 	});
 
 	connection.end();
 })
 
 var server = app.listen(8080, function () {
-   var host = server.address().address
-   var port = server.address().port
+   	var host = server.address().address
+   	var port = server.address().port
    
-   console.log("Ignition API listening at http://%s:%s", host, port)
+   	console.log("Ignition API is listening at http://%s:%s", host, port)
 })
