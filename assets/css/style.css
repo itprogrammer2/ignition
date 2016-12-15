@@ -57,8 +57,21 @@ html, body {
 }
 
 /* additional sections */
+
 #home {
-  background: url(../images/bg.png) no-repeat center center fixed; 
+  background: url(../images/shuttle1.png) no-repeat center center fixed; 
+  display: table;
+  height: 100%;
+  position: relative;
+  width: 100%;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+#home1 {
+  background: url(../images/shuttle1.png) no-repeat center center fixed; 
   display: table;
   height: 100%;
   position: relative;
@@ -70,7 +83,7 @@ html, body {
 }
 
 #home2 {
-  background: url(../images/bg2.png) no-repeat center center fixed; 
+  background: url(../images/shuttle2.png) no-repeat center center fixed; 
   display: table;
   height: 100%;
   position: relative;
@@ -82,7 +95,7 @@ html, body {
 }
 
 #home3 {
-  background: url(../images/bg3.png) no-repeat center center fixed; 
+  background: url(../images/shuttle3.png) no-repeat center center fixed; 
   display: table;
   height: 100%;
   position: relative;
@@ -155,7 +168,7 @@ footer .glyphicon:hover {
 
 */
 
-.home, .home2, .home3 h1, .description {
+.home, .home1, .home2, .home3 h1, .description {
   color: #FFF;
 }
 
@@ -417,4 +430,8 @@ footer .glyphicon:hover {
 .slider-img {
   width: 700px;
   height: 400px;
+}
+
+.force-whitebg {
+  background-color: #FFF;
 }

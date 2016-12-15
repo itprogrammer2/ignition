@@ -12,6 +12,8 @@
 
 $(document).ready(function (){
 
+  $.backstretch("./assets/images/sketch_bg_1.png");
+
   $("#owl-demo").owlCarousel({
       autoPlay : 2000,
       navigation : false, // Show next and prev buttons
