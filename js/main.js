@@ -12,7 +12,7 @@
 
 $(document).ready(function (){
 
-  $.backstretch("./assets/images/sketch_bg_2.png");
+  $.backstretch("./assets/images/sketch_bg_3.png");
 
   $("#owl-demo").owlCarousel({
       autoPlay : 2000,
