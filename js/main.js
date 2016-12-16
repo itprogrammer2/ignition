@@ -10,7 +10,7 @@
  * http://www.script-tutorials.com/
  */
 
-imagesLoaded( '#container', { background: true }, function() {
+imagesLoaded( '#backstretch_img', { background: true }, function() {
   document.getElementById('page_loader').style.display = 'none';
 });
 
