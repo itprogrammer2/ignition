@@ -51,7 +51,7 @@ html, body {
 }
 
 .text-vcenter .big {
-  font-size: 3.5em;
+  font-size: 4.5em;
 
   font-family: customBN;
 }
@@ -234,11 +234,12 @@ LOADER
     /*color: #000;
     background-color: #FFF;
     border-color: #FFF;*/
-
+    background-color: #FFF;
     padding-left: 100px;
     padding-right: 100px;
 
     font-size: 1.1em;
+    height: 50px;
 }
 
 .navbar-custom .navbar-nav > li > a {
