@@ -10,6 +10,10 @@
  * http://www.script-tutorials.com/
  */
 
+imagesLoaded( '#container', { background: true }, function() {
+  document.getElementById('loader').style.display = 'none';
+});
+
 $(document).ready(function (){
 
   $.backstretch("./assets/images/sketch_bg.png");
