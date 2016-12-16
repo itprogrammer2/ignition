@@ -38,12 +38,28 @@ $(document).ready(function (){
   // prepare the map properties
   var options = {
     zoom: 17,
+    radius: '500',
     center: latlng,
     mapTypeId: google.maps.MapTypeId.ROADMAP,
     navigationControl: true,
     mapTypeControl: false,
     scrollwheel: false,
-    disableDoubleClickZoom: true
+    disableDoubleClickZoom: true,
+    styles: [
+        {
+
+        featureType: "poi.business",
+
+        elementType: "labels",
+
+        stylers: [
+
+        { visibility: "off" }
+
+        ]
+
+        }
+      ]
   };
 
   // initialize the map object
@@ -61,6 +77,8 @@ $(document).ready(function (){
 
   // add information window
   var infowindow = new google.maps.InfoWindow({
-    content:  '<div class="info"><strong>This is my company</strong><br><br>My company address is here<br> 32846 Sydney</div>'
+    content:  '<div class="info"><img src="http://www.ignition.biz/ignition/assets/images/FINAL_LOGO1.png" style="height:30px;" /><br><br>Marajo Tower, 312 26th St. <br />Fort Bonifacio, Taguig, Metro Manila</div>'
   });  
+  
+
 });
