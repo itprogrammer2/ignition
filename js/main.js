@@ -11,7 +11,7 @@
  */
 
 imagesLoaded( '#container', { background: true }, function() {
-  document.getElementById('loader').style.display = 'none';
+  document.getElementById('page_loader').style.display = 'none';
 });
 
 $(document).ready(function (){
