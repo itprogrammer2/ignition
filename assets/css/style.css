@@ -866,3 +866,63 @@ LOADER
       width: 100%;
     }
 }
+
+.before-map {
+
+}
+@media all and (max-device-width: 425px){
+    .before-map {
+      width: 100%;
+      height: 750px;
+    }
+}
+
+@media all and (max-device-width: 375px){
+    .before-map {
+      width: 100%;
+      height: 750px;
+    }
+}
+
+@media all and (max-device-width: 320px){
+    .before-map {
+      width: 100%;
+      height: 750px;
+    }
+}
+
+.before-footer {
+
+}
+@media all and (max-device-width: 1024px){
+    .before-footer {
+      
+    }
+}
+
+@media all and (max-device-width: 768px){
+    .before-footer {
+      
+    }
+}
+
+@media all and (max-device-width: 425px){
+    .before-footer {
+      width: 100%;
+      height: 250px;
+    }
+}
+
+@media all and (max-device-width: 375px){
+    .before-footer {
+      width: 100%;
+      height: 250px;
+    }
+}
+
+@media all and (max-device-width: 320px){
+    .before-footer {
+      width: 100%;
+      height: 250px;
+    }
+}
