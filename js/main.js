@@ -70,6 +70,8 @@ $(document).ready(function (){
     position: latlng, map: map
   });
 
+
+
   // add listener for a click on the pin
   google.maps.event.addListener(marker1, 'click', function() {
     infowindow.open(map, marker1);
@@ -80,5 +82,7 @@ $(document).ready(function (){
     content:  '<div class="info"><img src="http://www.ignition.biz/ignition/assets/images/FINAL_LOGO1.png" style="height:30px;" /><br><br>Marajo Tower, 312 26th St. <br />Fort Bonifacio, Taguig, Metro Manila</div>'
   });  
   
+  //show on load
+  infowindow.open(map, marker1);
 
 });
