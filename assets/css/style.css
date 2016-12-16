@@ -34,9 +34,38 @@ html, body {
 .text-vcenter {
   margin-top: 13%;
   margin-left: 25%;
-
-
 }
+@media all and (max-device-width: 1024px){
+    .text-vcenter {
+      margin-top: 18%;
+      margin-left: 20%;
+    }
+}
+@media all and (max-device-width: 768px){
+    .text-vcenter {
+      margin-top: 20%;
+      margin-left: 25%;
+    }
+}
+@media all and (max-device-width: 425px){
+    .text-vcenter {
+      margin-top: 40%;
+      margin-left: 15%;
+    }
+}
+@media all and (max-device-width: 375px){
+    .text-vcenter {
+      margin-top: 40%;
+      margin-left: 15%;
+    }
+}
+@media all and (max-device-width: 320px){
+    .text-vcenter {
+      margin-top: 45%;
+      margin-left: 15%;
+    }
+}
+
 .text-vcenter h1 {
   font-size: 4.5em;
   font-weight: 700;
@@ -52,6 +81,60 @@ html, body {
   font-family: customAD;
   margin-top: 20px;
 }
+@media all and (max-device-width: 1024px){
+    .text-vcenter .description {
+      font-size: 1em;
+      width: 300px;
+      word-wrap: normal;
+
+      font-family: customAD;
+      margin-top: 10px;
+    }
+}
+
+@media all and (max-device-width: 768px){
+    .text-vcenter .description {
+      font-size: 0.9em;
+      width: 200px;
+      word-wrap: normal;
+
+      font-family: customAD;
+      margin-top: -10px;
+    }
+}
+
+@media all and (max-device-width: 425px){
+    .text-vcenter .description {
+      font-size: 0.8em;
+      width: 170px;
+      word-wrap: normal;
+
+      font-family: customAD;
+      margin-top: -10px;
+    }
+}
+
+@media all and (max-device-width: 375px){
+    .text-vcenter .description {
+      font-size: 0.7em;
+      width: 160px;
+      word-wrap: normal;
+
+      font-family: customAD;
+      margin-top: -10px;
+    }
+}
+
+@media all and (max-device-width: 320px){
+    .text-vcenter .description {
+      font-size: 0.7em;
+      width: 150px;
+      word-wrap: normal;
+
+      font-family: customAD;
+      margin-top: -10px;
+    }
+}
 
 .text-vcenter .small {
   font-size: 2em;
@@ -64,6 +147,45 @@ html, body {
 
   font-family: customBN;
 }
+@media all and (max-device-width: 1024px){
+    .text-vcenter .big {
+      font-size: 4em;
+      font-family: customBN;
+    }
+}
+
+@media all and (max-device-width: 768px){
+    .text-vcenter .big {
+      font-size: 3em;
+      font-family: customBN;
+      margin-bottom: 10px;
+    }
+}
+
+@media all and (max-device-width: 425px){
+    .text-vcenter .big {
+      font-size: 2.5em;
+      font-family: customBN;
+      margin-bottom: 20px;
+    }
+}
+
+@media all and (max-device-width: 375px){
+    .text-vcenter .big {
+      font-size: 2em;
+      font-family: customBN;
+      margin-bottom: 20px;
+    }
+}
+
+@media all and (max-device-width: 320px){
+    .text-vcenter .big {
+      font-size: 2em;
+      font-family: customBN;
+      margin-bottom: 20px;
+    }
+}
+
 
 /* additional sections */
 
@@ -113,6 +235,7 @@ html, body {
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
+  padding-bottom: 100px;
 }
 
 #workspace {
@@ -235,25 +358,22 @@ LOADER
 
 /*END of LOADER*/
 
-.home, .home1, .home2, .home3 h1, .description {
+.home, .home1, .home2, .home3, h1, .description {
   color: #FFF;
 }
 
 .navbar-custom {
-    /*color: #000;
     background-color: #FFF;
-    border-color: #FFF;*/
-    background-color: #FFF;
-    padding-left: 100px;
+    /*padding-left: 100px;
     padding-right: 100px;
-
+*/
     font-size: 1.1em;
     height: 50px;
 }
-
+/*
 .navbar-custom .navbar-nav > li > a {
     color:#000;
-}
+}*/
 .navbar-default .navbar-nav > .active > a, .navbar-nav > li > a:hover, .navbar-nav > li > a:focus {
     color: #000;
 }
@@ -307,6 +427,55 @@ LOADER
   background-color: #e94a4e;
   margin: 43.30px 0;
 }
+@media all and (max-device-width: 1024px){
+    .hexagon-bg-1 {
+      position: relative;
+      width: 150px; 
+      height: 86.60px;
+      background-color: #e94a4e;
+      margin: 43.30px 0 30% 20%;
+    }
+}
+
+@media all and (max-device-width: 768px){
+    .hexagon-bg-1 {
+      position: relative;
+      width: 150px; 
+      height: 86.60px;
+      background-color: #e94a4e;
+      margin: 43.30px 0 30% 0;
+    }
+}
+
+@media all and (max-device-width: 425px){
+    .hexagon-bg-1 {
+      position: relative;
+      width: 150px; 
+      height: 86.60px;
+      background-color: #e94a4e;
+      margin: 43.30px 0 30% 45%;
+    }
+}
+
+@media all and (max-device-width: 375px){
+    .hexagon-bg-1 {
+      position: relative;
+      width: 150px; 
+      height: 86.60px;
+      background-color: #e94a4e;
+      margin: 43.30px 0 30% 35%;
+    }
+}
+
+@media all and (max-device-width: 320px){
+    .hexagon-bg-1 {
+      position: relative;
+      width: 150px; 
+      height: 86.60px;
+      background-color: #e94a4e;
+      margin: 43.30px 0 50% 20%;
+    }
+}
 
 .hexagon-bg-1:before,
 .hexagon-bg-1:after {
@@ -334,6 +503,55 @@ LOADER
   height: 86.60px;
   background-color: #1e475a;
   margin: 43.30px 0;
+}
+@media all and (max-device-width: 1024px){
+    .hexagon-bg-2 {
+      position: relative;
+      width: 150px; 
+      height: 86.60px;
+      background-color: #1e475a;
+      margin: 43.30px 0 30% 20%;
+    }
+}
+
+@media all and (max-device-width: 768px){
+    .hexagon-bg-2 {
+      position: relative;
+      width: 150px; 
+      height: 86.60px;
+      background-color: #1e475a;
+      margin: 43.30px 0 30% 0;
+    }
+}
+
+@media all and (max-device-width: 425px){
+    .hexagon-bg-2 {
+      position: relative;
+      width: 150px; 
+      height: 86.60px;
+      background-color: #1e475a;
+      margin: 43.30px 0 30% 45%;
+    }
+}
+
+@media all and (max-device-width: 375px){
+    .hexagon-bg-2 {
+      position: relative;
+      width: 150px; 
+      height: 86.60px;
+      background-color: #1e475a;
+      margin: 43.30px 0 30% 35%;
+    }
+}
+
+@media all and (max-device-width: 320px){
+    .hexagon-bg-2 {
+      position: relative;
+      width: 150px; 
+      height: 86.60px;
+      background-color: #1e475a;
+      margin: 43.30px 0 50% 20%;
+    }
 }
 
 .hexagon-bg-2:before,
@@ -504,3 +722,147 @@ LOADER
   background-color: #FFF;
 }
 
+.custom-button {
+  /*do nothing for now*/ 
+}
+@media all and (max-device-width: 425px){
+    .custom-button {
+      width: 180px;
+      font-size: .85em;
+    }
+}
+
+@media all and (max-device-width: 375px){
+    .custom-button {
+      width: 170px;
+      font-size: .8em;
+    }
+}
+
+@media all and (max-device-width: 320px){
+    .custom-button {
+      width: 160px;
+      font-size: .75em;
+    }
+}
+
+.owl-carousel {
+
+}
+@media all and (max-device-width: 1024px){
+    .owl-carousel {
+
+    }
+}
+
+@media all and (max-device-width: 768px){
+    .owl-carousel {
+      width: 350px;
+    }
+}
+
+@media all and (max-device-width: 425px){
+    .owl-carousel {
+      width: 450px;
+    }
+}
+
+@media all and (max-device-width: 375px){
+    .owl-carousel {
+      width: 400px;
+    }
+}
+
+@media all and (max-device-width: 320px){
+    .owl-carousel {
+      width: 350px;
+      clear:both;
+    }
+}
+
+.slide-separator {
+
+}
+@media all and (max-device-width: 1024px){
+    .slide-separator {
+
+    }
+}
+
+@media all and (max-device-width: 768px){
+    .slide-separator {
+      
+    }
+}
+
+@media all and (max-device-width: 425px){
+    .slide-separator {
+      clear:both;
+    }
+}
+
+@media all and (max-device-width: 375px){
+    .slide-separator {
+      clear:both;
+    }
+}
+
+@media all and (max-device-width: 320px){
+    .slide-separator {
+      clear:both;
+    }
+}
+
+.push-right {
+
+}
+@media all and (max-device-width: 425px){
+    .push-right {
+      padding-left: 10%;
+    }
+}
+
+@media all and (max-device-width: 375px){
+    .push-right {
+      padding-left: 10%;
+    }
+}
+
+@media all and (max-device-width: 320px){
+    .push-right {
+      padding-left: 10%;
+    }
+}
+
+.full-img {
+
+}
+@media all and (max-device-width: 1024px){
+    .full-img {
+      width: 100%;
+    }
+}
+
+@media all and (max-device-width: 768px){
+    .full-img {
+      width: 100%;
+    }
+}
+
+@media all and (max-device-width: 425px){
+    .full-img {
+      width: 100%;
+    }
+}
+
+@media all and (max-device-width: 375px){
+    .full-img {
+      width: 100%;
+    }
+}
+
+@media all and (max-device-width: 320px){
+    .full-img {
+      width: 100%;
+    }
+}

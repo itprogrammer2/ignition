@@ -18,22 +18,13 @@ $(document).ready(function (){
 
   $.backstretch("./assets/images/sketch_bg.png");
 
-  $("#owl-demo").owlCarousel({
-      autoPlay : 2000,
-      navigation : false, // Show next and prev buttons
-      slideSpeed : 300,
-      paginationSpeed : 400,
-      singleItem:true,
-      stopOnHover : true,
-      rewindSpeed : 1000
-
-      // "singleItem:true" is a shortcut for:
-      // items : 1, 
-      // itemsDesktop : false,
-      // itemsDesktopSmall : false,
-      // itemsTablet: false,
-      // itemsMobile : false
-
+  $('.owl-carousel').owlCarousel({
+      items:1,
+      autoplay: true,
+      loop:true,
+      autoplayTimeout: 3000,
+      autoplayHoverPause: true,
+      smartSpeed:1500
   });
 
   // create a LatLng object containing the coordinate for the center of the map
