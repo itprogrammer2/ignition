@@ -6016,6 +6016,17 @@ button.close {
 
 .modal-content {
     position: relative;
+    /*background-color: #fff;
+    border: 1px solid #999;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    border-radius: 6px;
+    outline: 0;
+    -webkit-box-shadow: 0 3px 9px rgba(0, 0, 0, 0.5);
+    box-shadow: 0 3px 9px rgba(0, 0, 0, 0.5);
+    background-clip: padding-box*/
+}
+
+.modal-content .modal-orig {
     background-color: #fff;
     border: 1px solid #999;
     border: 1px solid rgba(0, 0, 0, 0.2);
@@ -6037,13 +6048,13 @@ button.close {
 }
 
 .modal-backdrop.fade {
-    opacity: 0;
-    filter: alpha(opacity=0)
+    opacity: 0.3;
+    filter: alpha(opacity=0.3)
 }
 
 .modal-backdrop.in {
-    opacity: .5;
-    filter: alpha(opacity=50)
+    opacity: .8;
+    filter: alpha(opacity=80)
 }
 
 .modal-header {
@@ -6112,7 +6123,11 @@ button.close {
         padding-top: 30px;
         padding-bottom: 30px
     }
-    .modal-content {
+    /*.modal-content {
+        -webkit-box-shadow: 0 5px 15px rgba(0, 0, 0, 0.5);
+        box-shadow: 0 5px 15px rgba(0, 0, 0, 0.5)
+    }*/
+    .modal-orig {
         -webkit-box-shadow: 0 5px 15px rgba(0, 0, 0, 0.5);
         box-shadow: 0 5px 15px rgba(0, 0, 0, 0.5)
     }

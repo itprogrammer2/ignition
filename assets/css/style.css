@@ -225,7 +225,7 @@ html, body {
   background-size: cover;
 }
 
-#home3 {
+#community {
   background: url(../images/shuttle3.png) no-repeat center center fixed; 
   display: table;
   height: 100%;
@@ -926,3 +926,52 @@ LOADER
       height: 250px;
     }
 }
+
+.top-content .text {
+    padding-top: 90px;
+    color: #fff;
+}
+
+.social-buttons{
+    margin:12px 0    
+}
+.social-buttons a{
+    width: 49%;
+}
+
+.btn-fb{
+    color: #fff;
+    background-color:#3b5998;
+}
+.btn-fb:hover{
+    color: #fff;
+    background-color:#496ebc 
+}
+.btn-tw{
+    color: #fff;
+    background-color:#55acee;
+}
+.btn-tw:hover{
+    color: #fff;
+    background-color:#59b5fa;
+}
+@media(max-width:768px){
+    #login-dp{
+        background-color: inherit;
+        color: #fff;
+    }
+    #login-dp .bottom{
+        background-color: inherit;
+        border-top:0 none;
+    }
+}
+
+.btn-google {
+  background-color: #c32f10;
+  color: #FFF;
+}
+.btn-facebook {
+  background-color: #3b5998;;
+  color: #FFF;
+}
+
